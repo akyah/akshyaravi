@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website for Akshya Ravi, an Industrial & Management Engineering student at RPI."
+    />
+    <title>Akshya Ravi | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Akshya Ravi home">
+          <span class="brand-mark">AR</span>
+          <span>Akshya Ravi</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#publications">Publications</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Industrial engineering + human-centered systems</p>
+          <h1>Designing safer, clearer, and more human engineering systems.</h1>
+          <p class="hero-text">
+            I am Akshya Ravi, a B.S. Industrial & Management Engineering student at
+            Rensselaer Polytechnic Institute with a minor in Cognitive & Behavioral
+            Neuroscience. My work connects operations, design, research, and human behavior.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View projects</a>
+            <a class="button secondary" href="assets/akshya-ravi-resume.pdf" target="_blank" rel="noreferrer">
+              Open resume
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Academic focus summary">
+          <figure class="profile-photo">
+            <img
+              src="assets/akshya-ravi-photo.jpg"
+              alt="Akshya Ravi standing on campus steps at night"
+            />
+          </figure>
+          <div class="metric-card accent-sun">
+            <span class="metric-value">RPI</span>
+            <span class="metric-label">B.S. Industrial & Management Engineering</span>
+          </div>
+          <div class="metric-card accent-mint">
+            <span class="metric-value">CBN</span>
+            <span class="metric-label">Minor in Cognitive & Behavioral Neuroscience</span>
+          </div>
+          <div class="metric-card accent-coral">
+            <span class="metric-value">2028</span>
+            <span class="metric-label">Expected graduation</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Curious about systems, people, and better ways to build.</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I am interested in the places where engineering decisions meet real human needs:
+            safer tools, clearer workflows, better learning environments, and systems that
+            people can actually use. My background includes engineering design, behavioral
+            research, teaching support, technical communication, and leadership development.
+          </p>
+          <div class="skills-panel" aria-label="Skills and tools">
+            <span>Excel</span>
+            <span>SQL</span>
+            <span>Power BI</span>
+            <span>Minitab</span>
+            <span>Siemens NX</span>
+            <span>MATLAB</span>
+            <span>Python</span>
+            <span>PowerPoint</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section highlights-section" aria-label="Selected highlights">
+        <div class="highlight">
+          <span class="highlight-kicker">Research</span>
+          <strong>Three-year behavioral science study</strong>
+          <p>Studied DBT and SEL-based coursework, adolescent distress tolerance, and student mental health supports.</p>
+        </div>
+        <div class="highlight">
+          <span class="highlight-kicker">Design</span>
+          <strong>Portable dust-extraction prototype</strong>
+          <p>Contributed user interviews and air curtain calculations for a foldable shop safety system.</p>
+        </div>
+        <div class="highlight">
+          <span class="highlight-kicker">Leadership</span>
+          <strong>Teaching, outreach, and team coordination</strong>
+          <p>Supports engineering communications students and leads external communication for RPI IISE.</p>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <img
+              src="assets/vacuum-extractor.png"
+              alt="Rendered page preview of the portable vacuum extractor proof-of-concept report"
+            />
+            <div class="project-body">
+              <div class="project-meta">Engineering design | RPI | Summer 2026</div>
+              <h3>Portable Air-Curtain Dust Extraction System</h3>
+              <p>
+                Co-developed a proof-of-concept system to reduce airborne particulate exposure
+                during woodworking and similar material-processing tasks. The prototype combined
+                a foldable aluminum frame, Lexan panels, an air curtain, electrical components,
+                and a 2.5-inch shop vacuum attachment.
+              </p>
+              <ul>
+                <li>Created user questionnaires and conducted interviews to refine user needs.</li>
+                <li>Calculated airflow CFM, nozzle length, baffle location, taper angles, and nozzle velocity.</li>
+                <li>Helped connect safety, portability, affordability, and usability requirements.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <img
+              src="assets/dbt-sel-research.png"
+              alt="Rendered results page preview of the DBT and social-emotional learning research paper"
+            />
+            <div class="project-body">
+              <div class="project-meta">Behavioral research | 2021-2024</div>
+              <h3>DBT and SEL Course Impact on Distress Tolerance</h3>
+              <p>
+                Designed and conducted a behavioral science research study evaluating whether a
+                course based on Dialectical Behavior Therapy skills and Social-Emotional Learning
+                affected high school students' distress tolerance and coping strategy use.
+              </p>
+              <ul>
+                <li>Developed the Husker Discovery curriculum and survey-based study design.</li>
+                <li>Analyzed 118 responses using statistical tests, including t-tests and ANOVA.</li>
+                <li>Presented findings at regional science competitions, earning multiple third-place awards.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card compact reveal">
+            <div class="project-body">
+              <div class="project-meta">Research assistantship | RPI | 2025</div>
+              <h3>Strength of Materials Simulation Tools</h3>
+              <p>
+                Developed interactive engineering simulations to support undergraduate Strength of
+                Materials instruction, using MATLAB and Python models to visualize loading,
+                material behavior, and core engineering concepts.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section publications-section" id="publications">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2>Papers, reports, and articles</h2>
+        </div>
+        <div class="publication-list">
+          <a class="publication-link" href="assets/dbt-sel-research-paper.pdf" target="_blank" rel="noreferrer">
+            <span class="publication-type">Research paper</span>
+            <strong>Effect of Seminar Course Based on Dialectical Behavior Therapy Skills & Social-Emotional Learning on Students' Distress Tolerance</strong>
+            <span>Regeneron Honors Science Research Program, 2021-2024</span>
+          </a>
+          <a class="publication-link" href="assets/portable-vacuum-extractor-report.pdf" target="_blank" rel="noreferrer">
+            <span class="publication-type">Engineering report</span>
+            <strong>Portable Vacuum Extractor Proof-of-Concept Report</strong>
+            <span>RPI ENGR2050, Summer 2026</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section resume-section" id="resume">
+        <div class="section-heading">
+          <p class="eyebrow">Resume</p>
+          <h2>Resume and academic profile</h2>
+        </div>
+        <div class="resume-layout">
+          <div>
+            <p>
+              My resume includes engineering design, undergraduate research, teaching support,
+              IISE leadership, ROTC experience, community service, and technical skills across
+              data analysis, CAD, simulation, and communication.
+            </p>
+            <a class="button primary" href="assets/akshya-ravi-resume.pdf" target="_blank" rel="noreferrer">
+              Download resume
+            </a>
+          </div>
+          <div class="credentials">
+            <div>
+              <span>Certifications</span>
+              <strong>Six Sigma Green Belt for Healthcare</strong>
+              <strong>AHA Basic Life Support Certificate</strong>
+            </div>
+            <div>
+              <span>Languages</span>
+              <strong>Tamil</strong>
+              <strong>Korean reading</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's connect.</h2>
+        </div>
+        <div class="contact-grid">
+          <a href="mailto:akshyasree.ravi@gmail.com">
+            <span>Email</span>
+            akshyasree.ravi@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/akshyaravi" target="_blank" rel="noreferrer">
+            <span>LinkedIn</span>
+            linkedin.com/in/akshyaravi
+          </a>
+          <a href="https://github.com/akyah" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            github.com/akyah
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Akshya Ravi. Built for GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
