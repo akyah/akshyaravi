@@ -224,6 +224,10 @@ h3 {
   background: var(--sun);
 }
 
+.button.linkedin {
+  background: var(--mint);
+}
+
 .hero-panel {
   display: grid;
   gap: 16px;
